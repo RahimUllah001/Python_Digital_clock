@@ -8,11 +8,173 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date_time",
+        "kind": 2,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "def date_time():\n    time = datetime.datetime.now()\n    hr = time.strftime(\"%I\")\n    min= time.strftime(\"%M\")\n    sec= time.strftime(\"%S\")\n    am= time.strftime(\"%p\")\n    # for date\n    date= time.strftime(\"%d\")\n    mon= time.strftime(\"%m\")\n    year= time.strftime(\"%y\")",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
         "label": "clock",
         "kind": 5,
         "importPath": "digital",
         "description": "digital",
-        "peekOfCode": "clock = Tk()    #we make an object of tkinter class which will brings graphics for the clock\nclock.mainloop()        # it will continously runs the clock",
+        "peekOfCode": "clock = Tk()    #we make an object of tkinter class which will brings graphics for the clock\nclock.title('        ***** MyDigitalClock *****    ')\nclock.geometry('1000x500')\nclock.config(bg='yellow')\nlab_hr = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_hr.place(x=120,y=40,height=110,width=100)\nlab_hr_txt = Label(clock,text=\"Hour\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_hr_txt.place(x=120,y=190,height=40,width=100)\nlab_min = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_min.place(x=340,y=40,height=110,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_hr",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_hr = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_hr.place(x=120,y=40,height=110,width=100)\nlab_hr_txt = Label(clock,text=\"Hour\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_hr_txt.place(x=120,y=190,height=40,width=100)\nlab_min = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_min.place(x=340,y=40,height=110,width=100)\nlab_min_txt = Label(clock,text=\"Min.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_min_txt.place(x=340,y=190,height=40,width=100)\nlab_sec = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_sec.place(x=560,y=40,height=110,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_hr_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_hr_txt = Label(clock,text=\"Hour\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_hr_txt.place(x=120,y=190,height=40,width=100)\nlab_min = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_min.place(x=340,y=40,height=110,width=100)\nlab_min_txt = Label(clock,text=\"Min.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_min_txt.place(x=340,y=190,height=40,width=100)\nlab_sec = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_sec.place(x=560,y=40,height=110,width=100)\nlab_sec_txt = Label(clock,text=\"Sec.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_sec_txt.place(x=560,y=190,height=40,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_min",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_min = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_min.place(x=340,y=40,height=110,width=100)\nlab_min_txt = Label(clock,text=\"Min.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_min_txt.place(x=340,y=190,height=40,width=100)\nlab_sec = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_sec.place(x=560,y=40,height=110,width=100)\nlab_sec_txt = Label(clock,text=\"Sec.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_sec_txt.place(x=560,y=190,height=40,width=100)\nlab_am = Label(clock,text=\"00\",font=('Time New Roman',50,\"bold\"),bg='red',fg=\"white\")\nlab_am.place(x=780,y=40,height=110,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_min_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_min_txt = Label(clock,text=\"Min.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_min_txt.place(x=340,y=190,height=40,width=100)\nlab_sec = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_sec.place(x=560,y=40,height=110,width=100)\nlab_sec_txt = Label(clock,text=\"Sec.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_sec_txt.place(x=560,y=190,height=40,width=100)\nlab_am = Label(clock,text=\"00\",font=('Time New Roman',50,\"bold\"),bg='red',fg=\"white\")\nlab_am.place(x=780,y=40,height=110,width=100)\nlab_am_txt = Label(clock,text=\"AM/PM\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_am_txt.place(x=780,y=190,height=40,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_sec",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_sec = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_sec.place(x=560,y=40,height=110,width=100)\nlab_sec_txt = Label(clock,text=\"Sec.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_sec_txt.place(x=560,y=190,height=40,width=100)\nlab_am = Label(clock,text=\"00\",font=('Time New Roman',50,\"bold\"),bg='red',fg=\"white\")\nlab_am.place(x=780,y=40,height=110,width=100)\nlab_am_txt = Label(clock,text=\"AM/PM\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_am_txt.place(x=780,y=190,height=40,width=100)\n# now prgoram for date \nlab_date = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_sec_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_sec_txt = Label(clock,text=\"Sec.\",font=('Time New Roman',30,\"bold\"),bg='red',fg=\"white\")\nlab_sec_txt.place(x=560,y=190,height=40,width=100)\nlab_am = Label(clock,text=\"00\",font=('Time New Roman',50,\"bold\"),bg='red',fg=\"white\")\nlab_am.place(x=780,y=40,height=110,width=100)\nlab_am_txt = Label(clock,text=\"AM/PM\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_am_txt.place(x=780,y=190,height=40,width=100)\n# now prgoram for date \nlab_date = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_date.place(x=120,y=270,height=110,width=100)\nlab_date_txt = Label(clock,text=\"Date\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_am",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_am = Label(clock,text=\"00\",font=('Time New Roman',50,\"bold\"),bg='red',fg=\"white\")\nlab_am.place(x=780,y=40,height=110,width=100)\nlab_am_txt = Label(clock,text=\"AM/PM\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_am_txt.place(x=780,y=190,height=40,width=100)\n# now prgoram for date \nlab_date = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_date.place(x=120,y=270,height=110,width=100)\nlab_date_txt = Label(clock,text=\"Date\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_date_txt.place(x=120,y=410,height=40,width=100)\nlab_mon = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_am_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_am_txt = Label(clock,text=\"AM/PM\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_am_txt.place(x=780,y=190,height=40,width=100)\n# now prgoram for date \nlab_date = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_date.place(x=120,y=270,height=110,width=100)\nlab_date_txt = Label(clock,text=\"Date\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_date_txt.place(x=120,y=410,height=40,width=100)\nlab_mon = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_mon.place(x=340,y=270,height=110,width=100)\nlab_mon_txt = Label(clock,text=\"Month\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_date",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_date = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_date.place(x=120,y=270,height=110,width=100)\nlab_date_txt = Label(clock,text=\"Date\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_date_txt.place(x=120,y=410,height=40,width=100)\nlab_mon = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_mon.place(x=340,y=270,height=110,width=100)\nlab_mon_txt = Label(clock,text=\"Month\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_mon_txt.place(x=340,y=410,height=40,width=100)\nlab_year = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_year.place(x=560,y=270,height=110,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_date_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_date_txt = Label(clock,text=\"Date\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_date_txt.place(x=120,y=410,height=40,width=100)\nlab_mon = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_mon.place(x=340,y=270,height=110,width=100)\nlab_mon_txt = Label(clock,text=\"Month\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_mon_txt.place(x=340,y=410,height=40,width=100)\nlab_year = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_year.place(x=560,y=270,height=110,width=100)\nlab_year_txt = Label(clock,text=\"Year\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_year_txt.place(x=560,y=410,height=40,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_mon",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_mon = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_mon.place(x=340,y=270,height=110,width=100)\nlab_mon_txt = Label(clock,text=\"Month\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_mon_txt.place(x=340,y=410,height=40,width=100)\nlab_year = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_year.place(x=560,y=270,height=110,width=100)\nlab_year_txt = Label(clock,text=\"Year\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_year_txt.place(x=560,y=410,height=40,width=100)\nlab_day = Label(clock,text=\"00\",font=('Time New Roman',40,\"bold\"),bg='red',fg=\"white\")\nlab_day.place(x=780,y=270,height=110,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_mon_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_mon_txt = Label(clock,text=\"Month\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_mon_txt.place(x=340,y=410,height=40,width=100)\nlab_year = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_year.place(x=560,y=270,height=110,width=100)\nlab_year_txt = Label(clock,text=\"Year\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_year_txt.place(x=560,y=410,height=40,width=100)\nlab_day = Label(clock,text=\"00\",font=('Time New Roman',40,\"bold\"),bg='red',fg=\"white\")\nlab_day.place(x=780,y=270,height=110,width=100)\nlab_day_txt = Label(clock,text=\"Day\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_day_txt.place(x=780,y=410,height=40,width=100)",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_year",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_year = Label(clock,text=\"00\",font=('Time New Roman',60,\"bold\"),bg='red',fg=\"white\")\nlab_year.place(x=560,y=270,height=110,width=100)\nlab_year_txt = Label(clock,text=\"Year\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_year_txt.place(x=560,y=410,height=40,width=100)\nlab_day = Label(clock,text=\"00\",font=('Time New Roman',40,\"bold\"),bg='red',fg=\"white\")\nlab_day.place(x=780,y=270,height=110,width=100)\nlab_day_txt = Label(clock,text=\"Day\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_day_txt.place(x=780,y=410,height=40,width=100)\ndate_time()\nclock.mainloop()        # it will continously runs the clock",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_year_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_year_txt = Label(clock,text=\"Year\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_year_txt.place(x=560,y=410,height=40,width=100)\nlab_day = Label(clock,text=\"00\",font=('Time New Roman',40,\"bold\"),bg='red',fg=\"white\")\nlab_day.place(x=780,y=270,height=110,width=100)\nlab_day_txt = Label(clock,text=\"Day\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_day_txt.place(x=780,y=410,height=40,width=100)\ndate_time()\nclock.mainloop()        # it will continously runs the clock",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_day",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_day = Label(clock,text=\"00\",font=('Time New Roman',40,\"bold\"),bg='red',fg=\"white\")\nlab_day.place(x=780,y=270,height=110,width=100)\nlab_day_txt = Label(clock,text=\"Day\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_day_txt.place(x=780,y=410,height=40,width=100)\ndate_time()\nclock.mainloop()        # it will continously runs the clock",
+        "detail": "digital",
+        "documentation": {}
+    },
+    {
+        "label": "lab_day_txt",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "lab_day_txt = Label(clock,text=\"Day\",font=('Time New Roman',20,\"bold\"),bg='red',fg=\"white\")\nlab_day_txt.place(x=780,y=410,height=40,width=100)\ndate_time()\nclock.mainloop()        # it will continously runs the clock",
         "detail": "digital",
         "documentation": {}
     }
