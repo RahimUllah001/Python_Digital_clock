@@ -1,0 +1,19 @@
+[
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "clock",
+        "kind": 5,
+        "importPath": "digital",
+        "description": "digital",
+        "peekOfCode": "clock = Tk()    #we make an object of tkinter class which will brings graphics for the clock\nclock.mainloop()        # it will continously runs the clock",
+        "detail": "digital",
+        "documentation": {}
+    }
+]
